@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starlight - 7 Months</title>
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #09001a, #22004d, #000);
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .container {
+      padding: 30px;
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    .stars {
+      font-size: 28px;
+      margin: 20px 0;
+    }
+
+    .heart {
+      font-size: 55px;
+      margin-top: 20px;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.15);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="stars">✨ ⭐ ✨ ⭐ ✨</div>
+
+    <h1>Happy 7 Months Anniversary, Nasha 🥺❤️</h1>
+
+    <p>
+      Seven months already... and somehow you still manage
+      to make every moment feel special.
+    </p>
+
+    <p>
+      Here's to us, to the memories we've made,
+      and to all the moments still waiting for us. ❤️
+    </p>
+
+    <div class="heart">❤️</div>
+
+    <div class="stars">✨ ⭐ ✨ ⭐ ✨</div>
+  </div>
+
+</body>
+</html>
